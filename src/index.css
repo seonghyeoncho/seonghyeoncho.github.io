@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  --bg-color: #F5F5F7;
+  --accent-blue: #0066FF;
+  --accent-purple: #8B5CF6;
+  --text-dark: #1A1A1A;
+  --text-light: #6B7280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  overflow: hidden;
+  /* Prevent scrollbars for the landing page feel */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hero Section Styles */
+.hero-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: -0.02em;
+  color: var(--text-dark);
+  opacity: 0;
+  animation: fadeIn 1s ease-out 0.5s forwards;
+}
+
+.content {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.04em;
+  background: linear-gradient(135deg, var(--text-dark) 0%, #4B5563 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  animation: slideUpFade 1s ease-out 0.2s forwards;
+}
+
+.search-container {
+  width: 100%;
+  opacity: 0;
+  animation: slideUpFade 1s ease-out 0.4s forwards;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1.2rem 1.5rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--text-dark);
+  font-family: 'Inter', sans-serif;
+}
+
+.search-input:focus {
+  outline: none;
+  transform: scale(1.02);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.search-input::placeholder {
+  color: var(--text-light);
+}
+
+.search-input:hover {
+  transform: scale(1.01);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .logo {
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .search-input {
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+  }
+}
