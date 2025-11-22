@@ -6,7 +6,7 @@ const HeroSection: React.FC = () => {
       <div className="logo">Seonghyeon Cho</div>
 
       <div className="content">
-        <h1 className="title">AI Researcher</h1>
+        <h1 className="title">Hi. I'm Seonghyeon Cho</h1>
         <div className="search-container">
           <input
             type="text"
