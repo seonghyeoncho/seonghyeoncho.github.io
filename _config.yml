@@ -1,0 +1,15 @@
+title: Seonghyeon Cho
+url: "https://seonghyeoncho.github.io"
+baseurl: ""
+
+markdown: kramdown
+
+footer: no
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "GitHub"
+   link: "https://github.com/seonghyeoncho"
