@@ -159,6 +159,7 @@ img.edu-logo {
 
 .content {
     margin-top: 24px;
+    padding-bottom: calc(64px + env(safe-area-inset-bottom, 0px));
 }
 
 .content section {
