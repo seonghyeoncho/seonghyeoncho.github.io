@@ -1,5 +1,11 @@
-# 학력 — 위에서부터 순서대로 표시됩니다. logo는 선택사항.
-- period: 2020.03 - 2026.02
-  degree: B.S. in Lorem Ipsum Engineering
-  school: Dolor Sit University
+# 학력 — 위에서부터 순서대로 표시됩니다. logo, advisor, advisor_link는 선택사항.
+- period: 2026.09 - Now
+  degree: M.S. in School of Software
+  school: Soongsil University
+  advisor: Prof. Chanjun Park
+  advisor_link: https://parkchanjun.github.io/
+  logo: images/soongsil.png
+- period: 2020.03 - 2026.08
+  degree: B.S. in School of Software
+  school: Soongsil University
   logo: images/soongsil.png

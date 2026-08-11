@@ -1,7 +1,6 @@
-# 경력 — 위에서부터 순서대로 표시됩니다.
-- period: 2026.03 - Now
-  org: Consectetur Labs
-  role: Research Engineer
-- period: 2025.07 - 2026.02
-  org: Adipiscing Inc.
-  role: Software Engineer Intern
+# 경력 — 위에서부터 순서대로 표시됩니다. logo, logo_link는 선택사항.
+- period: 2025.11 - 2026.08
+  org: Soongsil NLP Lab
+  role: Undergraduate Researcher
+  logo: images/soongsil_nlp.png
+  logo_link: https://sites.google.com/view/ssu-nlp/home

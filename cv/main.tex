@@ -1,0 +1,110 @@
+\documentclass[10pt,a4paper]{article} % Reduced font size to 10pt
+\usepackage{geometry}
+\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{kotex}
+% Title formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+% Custom commands
+\newcommand{\seclabel}[1]{\section*{\uppercase{#1}}}
+\newcommand{\cvitem}[2]{\textbf{#1} \hfill \small{#2}\\}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=cyan,
+    filecolor=cyan,
+    urlcolor=cyan,
+    citecolor=cyan
+}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge{Seonghyeon Cho}} \\ \vspace{1.0em}
+    M.S Student \\ Soongsil University \\ School of Software \\
+    \textbf{Email: }\href{mailto:chosh04089@gmail.com}{chosh04089@gmail.com} \\
+    \textbf{Home: }\url{https://seonghyeoncho.github.io/} \\
+    \textbf{LinkedIn: }\url{https://www.linkedin.com/in/seonghyeon-cho-792373320} \\
+    \textbf{Lab: }\url{https://sites.google.com/view/ssu-nlp/home}
+\end{center}
+
+\vspace{1em}
+
+\seclabel{Lifelong Research Objective}
+\small{TODO: 평생 연구 목표 문단.}
+
+\seclabel{Research Interests}
+\small{TODO: 연구 관심사 문단.}
+
+\seclabel{Education}
+\begin{itemize}[left=0pt]
+    \item \cvitem{Soongsil University}{\small{Sep. 2026 -- Aug. 2028 (Expected)}}
+    \small{M.S in School of Software (advisor: Chanjun Park)} \vspace{0.6em}
+    \item \cvitem{Soongsil University}{\small{Mar. 2020 -- Aug. 2026}}
+    \small{B.S in School of Software}
+\end{itemize}
+
+\seclabel{Work Experience}
+\begin{itemize}[left=0pt]
+    \item \cvitem{Soongsil University NLP Lab}{\small{[Nov. 2025 -- Aug. 2026]}}
+    \small{Undergraduate Researcher (advisor: Chanjun Park)}
+\end{itemize}
+
+\newpage
+
+\seclabel{Publications}
+\textit{Equal contribution}: *, \textit{Corresponding author}: \dag
+% \begin{enumerate}[left=0pt]
+%     \item \small{\textbf{논문 제목} \\ \underline{Seonghyeon Cho}, Coauthor Name \\ \textit{Venue Year}}
+% \end{enumerate}
+
+\newpage
+
+\seclabel{Research Projects}
+\paragraph{Soongsil University}
+\begin{itemize}[left=0pt]
+    \item \small{2026년 인공지능 말평 운영 및 연계 행사 개최 (2026, 참여연구자 (용역과제), National Institute of the Korean Language)}
+    \item \small{2026년 인공지능의 한국어 능력 표준 평가 과제 구축 및 활용 (2026, 참여연구자 (용역과제), National Institute of the Korean Language)}
+    \item \small{우수연구 신진연구 (유형B) (2026-2029, 참여연구자 (3책5공), NRF)}
+    \item \small{Foundation Model 운용과정에서 민감정보 추론 방지 및 리스크 평가 기술 개발 (2026-2028, 참여연구자 (3책5공), Korea Internet \& Security Agency (한국인터넷진흥원))}
+    \item \small{토론과 소통으로 지식을 연결하는 AI 에이전트 기술 개발 (2026-2028, 참여연구자 (3책5공), Korea Creative Content Agency(한국콘텐츠진흥원))}
+    \item \small{AI 보안 특화 'AI 에이전트' 개발 선행 연구 (2026, 참여연구자 (용역과제), 한국정보보호학회 산하 AI보안연구회)}
+    \item \small{국가 $\cdot$ 공공기관 가이드라인 준수를 위한 AI 시스템 보안 위협 자동화 기술점검 도구 개발 (2026, 공동참여연구자 (위탁), KIST)}
+    \item \small{AI 연구용 컴퓨팅 지원 프로젝트 (파라미터 수준의 정보 제어 원천기술 연구 및 파라미터 스튜디오 플랫폼 개발) (2026, 참여연구자, KETI)}
+\end{itemize}
+
+\seclabel{External Activities}
+\paragraph{Soongsil University}
+\begin{itemize}[left=0pt]
+    \item \small{Database, Teaching Assistant (Spring 2026)}
+\end{itemize}
+
+\seclabel{Awards/Fellowships}
+\paragraph{Awards}
+\begin{itemize}[left=0pt]
+    \item \small{President's Award, Soongsil University Software Competition (2021)}
+    \item \small{Excellence Award, SW Talent Festival (2021)}
+\end{itemize}
+\paragraph{Fellowships}
+\begin{itemize}[left=0pt]
+    \item \small{Graduate Admission Scholarship for Academic Excellence, Soongsil University (2026-2028)}
+    \item \small{Research Assistantship (RA) Scholarship, Soongsil University (2026)}
+\end{itemize}
+\paragraph{Research Grants}
+\begin{itemize}[left=0pt]
+    \item \small{VESSL AI GPU Grant Program (2026)}
+\end{itemize}
+
+\seclabel{Patents}
+
+\seclabel{Talks}
+\paragraph{Domestic Talks}
+\begin{itemize}[left=0pt]
+    \item \small{\textbf{MISOTECH}, Foundation Models: Basics and Practice, June 2026}
+\end{itemize}
+
+\end{document}

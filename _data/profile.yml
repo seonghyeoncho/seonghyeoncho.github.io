@@ -1,5 +1,14 @@
 # 링크 모음 — 여기만 수정하면 페이지 전체에 반영됩니다.
+# bio는 마크다운 문법([텍스트](링크), **강조** 등) 사용 가능.
+bio: >
+  Seonghyeon Cho is a researcher and engineer. Lorem ipsum dolor sit amet,
+  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+  officia deserunt mollit anim id est laborum.
 email: chosh04089@gmail.com
 github: https://github.com/seonghyeoncho
-linkedin: "#" # TODO: LinkedIn 프로필 URL
-scholar: "#" # TODO: Google Scholar 프로필 URL
+linkedin: https://www.linkedin.com/in/seonghyeon-cho-792373320
+scholar: https://scholar.google.com/citations?user=PVV2yB8AAAAJ&hl=en

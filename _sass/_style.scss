@@ -36,7 +36,8 @@ hr {
  */
 
 #author-name {
-    font-size: 30px;
+    font-size: 34px;
+    font-weight: 500;
     color: #272727;
     display: inline-block;
 }
@@ -144,18 +145,26 @@ img.icon {
     vertical-align: middle;
 }
 
-img.icon-sm {
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    margin: 0;
-    vertical-align: -4px;
-}
-
 img.edu-logo {
     display: inline-block;
     width: auto;
     height: 16px;
     margin: 0 0 0 4px;
     vertical-align: -3px;
+}
+
+.content h2 {
+    font-weight: 500;
+}
+
+.content {
+    margin-top: 24px;
+}
+
+.content section {
+    margin-bottom: 32px;
+
+    h2 {
+        margin-top: 0;
+    }
 }
