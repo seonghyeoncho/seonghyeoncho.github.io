@@ -135,3 +135,19 @@ hr {
 
 @import "typography";
 @import "tables";
+
+img.icon {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-right: 14px;
+    vertical-align: middle;
+}
+
+img.icon-sm {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    vertical-align: -4px;
+}
