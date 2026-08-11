@@ -1,4 +1,7 @@
 # 경력 — 위에서부터 순서대로 표시됩니다.
-- period: 20XX.XX - Now
-  org: XXX
-  role: Position
+- period: 2026.03 - Now
+  org: Consectetur Labs
+  role: Research Engineer
+- period: 2025.07 - 2026.02
+  org: Adipiscing Inc.
+  role: Software Engineer Intern

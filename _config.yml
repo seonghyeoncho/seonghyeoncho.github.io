@@ -11,5 +11,5 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "GitHub"
-   link: "https://github.com/seonghyeoncho"
+ - name: "CV"
+   link: "cv.pdf"

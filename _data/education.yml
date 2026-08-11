@@ -1,4 +1,5 @@
-# 학력 — 위에서부터 순서대로 표시됩니다.
-- period: 20XX.XX - 20XX.XX
-  degree: B.S. in XXX
-  school: XXX University
+# 학력 — 위에서부터 순서대로 표시됩니다. logo는 선택사항.
+- period: 2020.03 - 2026.02
+  degree: B.S. in Lorem Ipsum Engineering
+  school: Dolor Sit University
+  logo: images/soongsil.png

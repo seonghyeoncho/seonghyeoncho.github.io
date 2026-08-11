@@ -4,11 +4,18 @@ layout: default
 
 ## Biography
 
-Seonghyeon Cho is a researcher/engineer. (Write your biography here.)
+<img class="profile-picture" src="images/profile_padded.jpg">
+
+Seonghyeon Cho is a researcher and engineer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Research Interests
+
+{% for i in site.data.interests %}* {{ i }}
+{% endfor %}
 
 ## Education
 
-{% for e in site.data.education %}* **{{ e.period }}**: {{ e.degree }}, {{ e.school }}
+{% for e in site.data.education %}* **{{ e.period }}**: {{ e.degree }}, {{ e.school }}{% if e.logo %} <img class="edu-logo" src="{{ e.logo }}" alt="">{% endif %}
 {% endfor %}
 
 ## Work Experiences
